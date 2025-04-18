@@ -148,6 +148,7 @@ footer {
 }
 .footer_nav_list:hover {
     opacity: 0.7;
+    text-decoration: underline;
 }
 .footer_nav_list a {
     text-decoration: none;
@@ -156,8 +157,18 @@ footer {
 .footer_rights {
     margin-left: auto;
     padding-right: 40px;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     letter-spacing: 0.1em;
+}
+
+.footer_rights a {
+    text-decoration: none;
+    color: #655560;
+}
+
+.footer_rights a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
 }
 
 /* トップページ メインビジュアル*/
